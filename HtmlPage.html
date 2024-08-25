@@ -1,26 +1,70 @@
 ﻿<!DOCTYPE html>
-<link rel="stylesheet" type="text/css" href="https://XtraBunger.github.io/StyleSheet.css">
+<link rel="stylesheet" type="text/css" href="StyleSheet.css">
+<link rel="stylesheet" href="https://fonts.google.com/icons">
 
 <html>
-
 <head>
     <meta charset="utf-8" />
-    <title>Spy from TF2</title>
+    <title>Aaron Yee</title>
 </head>
 
 <body>
-    <!--This is going to be my profile picture-->
-    <div>
-        <img src="https://i.ibb.co/Wfn4dsH/bomber-lancer-performs-in-the-lauderdale-air-show-on-april-news-photo-1690239324.jpg" alt="Demolitions" border="0"><br /><br />
-    </div>
-    <!--This section is my basic intro, and will only contain text-->
-    <h1 id="intro">Hello My name is Aaron</h1>
-    <p>Go backshot yourself</p>
 
-    <form>
-        <h1>Whoops</h1>
-        <input type="text" name="username" />
-    </form>
+    <nav>
+        <ul class="side">
+            <!--This section is the nav bar-->
+            <li onclick="hideSideBar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 0 30 24" width="40px" fill="#e8eaed"><path d="M0 0h24v24H0z" fill="none" /><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" /></svg></a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Experience</a></li>
+            <li><a href="#">About Me</a></li>
+        </ul>
+        <ul><!--This section is the nav bar sidebar-->
+            <li><a href="#">Home</a></li>
+            <li class="hideOnMobile"><a href="#">Portfolio</a></li>
+            <li class="hideOnMobile"><a href="#">Experience</a></li>
+            <li class="hideOnMobile"><a href="#">About Me</a></li>
+            <li class="menu-button" onclick=showSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 0 24 24" width="40px" fill="#e8eaed"><path d="M0 0h24v24H0z" fill="none" /><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" /></svg></a></li>
+        </ul>
+    </nav>
 
+    <script>
+        function showSideBar() {
+            const sidebar = document.querySelector('.side'); 
+            sidebar.style.display = 'flex';
+        }
+        function hideSideBar() {
+            const sidebar = document.querySelector('.side');
+            sidebar.style.display = 'none';
+        }
+    </script>
+
+    <main>
+        <h1 id="intro">
+            Hello! My name is Aaron and welcome to my website! <!--Basic general website stuff under this-->
+        </h1>
+
+        <p>
+            I am currently a second year engineering student.<br /> My interests are rock music, Formula 1,<br /> video games and engineering
+        </p>
+        <div class="imagecard">
+            <img id="LeSpy" src="LeSpy.png" alt="This is supposed to be me if the image had loaded">
+            <div class="imgtxt">
+                <p>
+                    Cheeseos
+                </p>
+            </div>
+        </div>
+
+        <div class="Footer">
+            <div class="Contacts">
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50" width="50px" height="50px"><path style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;" d="M16,46h18c6.627,0,12-5.373,12-12V16c0-6.627-5.373-12-12-12H16C9.373,4,4,9.373,4,16v18C4,40.627,9.373,46,16,46z" /><circle style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;" cx="25" cy="25" r="10" /><circle cx="37" cy="13" r="2" /></svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50" width="50px" height="50px"><path style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="M9,45h32c2.209,0,4-1.791,4-4V9c0-2.209-1.791-4-4-4H9C6.791,5,5,6.791,5,9v32C5,43.209,6.791,45,9,45z" /><polygon style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="11,20 17,20 17,33.135 17,39 11,39 " /><path style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="M14,17L14,17c-1.8,0-3-1.133-3-2.533S12.2,12,14,12s2.925,1.067,3,2.467C17,15.867,15.875,17,14,17z" /><path style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="M39,39h-6c0,0,0-9.257,0-10c0-2-1-4-3.5-4.043C27.022,24.913,26,27,26,29c0,0.909,0,10,0,10h-6V20h6v2.561c0,0,1.93-2.561,5.813-2.561C35.778,20,39,22.726,39,28.261V39z" /></svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50" width="50px" height="50px"><g><path d="M24.4,11c7.2,0,13,0.6,15.8,1.1c1.5,0.4,2.7,1.4,2.9,2.7c0.6,3.2,1,6.6,1,10.1c-0.1,4.3-0.6,7.8-1,10.3c-0.3,1.9-2.3,2.5-2.9,2.7c-3.6,0.7-9.6,1.2-15.6,1.2s-12.1-0.4-15.6-1.2c-1.5-0.4-2.7-1.4-2.9-2.7C5.3,32.4,5,28.7,5,25c0-4.6,0.4-8,0.8-10.1c0.3-1.9,2.4-2.5,2.9-2.7C12,11.5,18.1,11,24.4,11 M24.4,9c-6.6,0-12.8,0.5-16.1,1.2c-2.2,0.5-4.1,2-4.5,4.3C3.4,16.9,3,20.5,3,25S3.4,33,3.9,35.5c0.4,2.2,2.3,3.8,4.5,4.3c3.5,0.7,9.5,1.2,16.1,1.2c6.6,0,12.6-0.5,16.1-1.2c2.2-0.5,4.1-2,4.5-4.3c0.4-2.5,0.9-6.1,1-10.6c0-4.5-0.5-8.1-1-10.6c-0.4-2.2-2.3-3.8-4.5-4.3C37.1,9.5,31,9,24.4,9L24.4,9z" /></g><path d="M21,20.4l8,4.6l-8,4.6V20.4 M19,17v16l14-8L19,17L19,17z" /></svg></a>
+            </div>
+            <div class="footercredits">
+                <p>Copyright &copy;2024 Aaron Yee</p>
+            </div>
+        </div><!--Cool box at bottom-->
+    </main>
 </body>
 </html>

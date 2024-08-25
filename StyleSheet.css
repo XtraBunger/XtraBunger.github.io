@@ -1,13 +1,158 @@
 ﻿body {
-    background-color: aquamarine
+    background-color: /*#2b2a33*/ white;
+    color: black;
+    font-family: 'Times New Roman', serif;
+    overflow:hidden;
 }
 
+
+/*Title text*/
+
 h1 {
-    color: white;
+    font-size: 2vw;
     text-align: center;
 }
 
-p {
-    font-family: verdana;
-    font-size: 20px;
+/*Main paragraph about me text*/
+
+p1 {
+    font-size: 1vw;
+    text-align:justify;
+    margin-left:100px;
+}
+
+#LeSpy {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ForMe {
+
+    border: 3px solid #ddd;
+    border-radius: 20%;
+    padding: 5px;
+    float:left;
+    margin-left: 50px;
+}
+
+.imagecard {
+    width: auto;
+    background-color: white;
+    margin: 3%;
+    border: 0px solid white;
+    float: right;
+    box-shadow: 5px 5px 5px #4d4d4e;
+}
+
+.imgtxt {
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.open {
+    text-align: center;
+    font-family: 'Copperplate Gothic';
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: -50px;
+    background: white;
+    border: 1px solid transparent;
+    border-width: 4px;
+}
+
+.Footer {
+    background-color: hsl(0,0%,25%);
+    flex-direction:column;
+    display:flex;
+    margin-left:-20px;
+    margin-right:-20px;
+    padding: 20px;
+    margin-top:570px;
+    text-align:justify;
+    align-items:center;
+}
+
+.Contacts {
+    align-items: center;
+    display: block;
+}
+
+
+
+
+
+
+nav ul{
+    list-style-type:none;
+    background-color:hsl(0,0%,25%);
+    padding:0px;
+    margin:-15px;
+    overflow:hidden;
+    font-size:40px;
+    justify-content:flex-end;
+    display:flex;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    align-items: center;
+}
+
+nav a:hover{
+    background-color: hsl(0,0%,10%)
+}
+
+
+
+nav ul li:first-child{
+    margin-right:auto;
+}
+
+nav {
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+ 
+}
+
+.side {
+    position: fixed;
+    top: 10px;
+    right: 0;
+    height: 100vw;
+    background-image: url('file:///C:\Users\Theam\Downloads\close_24dp_E8EAED.svg');
+    width: 250px;
+    z-index: 999;
+    background-color: hsl(0,0%,25%);
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    backdrop-filter: blur(10px);
+}
+
+.side li{
+    width:100%;
+}
+
+.side a{
+    width:100%;
+}
+
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+        width: 100%;
+    }
+    .menu-button{
+        display:block;
+    }
+}
+
+@media(max-width: 400px){
+    .side{
+        width:100%;
+    }
 }
