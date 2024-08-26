@@ -23,13 +23,11 @@
     margin-top:auto;
     margin-left:-1vw; 
 }
-/*Nav Bar*/
-
 nav ul {
     list-style-type: none;
     background: hsl(0,0%,25%);
     padding: 0px;
-    margin-top: -1.5vh;
+    margin-top: -1vh;
     margin-left: -.5vw;
     overflow-x: hidden;
     font-size: 40px;
@@ -41,7 +39,7 @@ nav ul {
 
 @media screen and (max-width:1000px) {
     nav ul {
-        width: 105%;
+        width: 105vw;
         margin-left: -2%;
     }
 }
@@ -64,17 +62,17 @@ nav a {
     padding: 15px;
     display: block;
     align-items: center;
-    font-size:40px;
+    font-size: 40px;
 }
 
-/*Colour change on hover*/
-nav a:hover{
-    background-color: hsl(0,0%,10%)
-}
+    /*Colour change on hover*/
+    nav a:hover {
+        background-color: hsl(0,0%,10%)
+    }
 
 /*Home button left side*/
-nav ul li:first-child{
-    margin-right:auto;
+nav ul li:first-child {
+    margin-right: auto;
 }
 
 /*Side bar*/
@@ -92,16 +90,16 @@ nav ul li:first-child{
     backdrop-filter: blur(10px);
 }
 
-/*Size of the buttons*/
-.side li{
-    width:100%;
-}
+    /*Size of the buttons*/
+    .side li {
+        width: 100%;
+    }
 
-.side a{
-    width:100%;
-}
+    .side a {
+        width: 100%;
+    }
 
-@media(max-width: 800px) {
+@media(max-width: 1000px) {
     .hideOnMobile {
         display: none;
         width: 100%;
@@ -112,11 +110,12 @@ nav ul li:first-child{
     }
 }
 
-@media(max-width: 400px) {
+@media(max-width: 1000px) {
     .side {
         width: 100%;
     }
 }
+
 
 /*This is the formatting for the text itself*/
 
@@ -202,7 +201,7 @@ div .websitelist { /*About the project website*/
     font-size:2.5vw;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:600px) {
     .portfolio {
         font-size:7vw;
         margin-left:-1vw;
@@ -210,7 +209,7 @@ div .websitelist { /*About the project website*/
 }
 
 .P1 { /*Website intro*/
-    margin-left: 20vw;
+    margin-left: 12vw;
     text-align: justify;
     margin-bottom: 1.2vh;
     margin-top: 10vh;
