@@ -19,8 +19,7 @@
     bottom:-2.5vh;
     width:100vw;
     margin-top:auto;
-    margin-left:-1vw;
-    
+    margin-left:-1vw; 
 }
 /*Nav Bar*/
 
@@ -139,6 +138,7 @@ div .websitelist { /*About the project website*/
     border: solid black 5px;
     margin-top: 0vh;
     margin-left: 5vh;
+    margin-bottom: 15vh;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -152,7 +152,7 @@ div .websitelist { /*About the project website*/
         text-align: left;
         margin-left: 0;
         margin-top: 10vh;
-        margin-bottom: 20%;
+        margin-bottom: 10%;
     }
 }
 
