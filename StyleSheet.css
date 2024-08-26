@@ -21,7 +21,7 @@
     bottom: -2.5vh;
     width: 100vw;
     margin-top: auto;
-    margin-left: -2vw;
+    margin-left: -1vw;
 }
 /*Nav Bar*/
 
@@ -37,6 +37,13 @@ nav ul {
     display: flex;
     width: 101%;
     position: center;
+}
+
+@media screen and (max-width:1000px) {
+    nav ul {
+        width: 107vw;
+        margin-left: -2%;
+    }
 }
 
 @media screen and (max-width:600px) {
