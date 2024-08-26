@@ -152,7 +152,7 @@ div .lancer { /*Image of site*/
 
     margin-left: 3%;
     margin-right: 4vw;
-    margin-top: -20vh;
+    margin-top: -10vh;
     margin-bottom: 3%;
     float: right;
     box-shadow: 5px 5px 5px #4d4d4e;
@@ -160,7 +160,9 @@ div .lancer { /*Image of site*/
 
 @media screen and (max-width:1000px) {
     .imagecard {
-        float:initial;
+        float:left;
+        margin-top:0;
+        margin-left:auto;
     }
 }
 
@@ -181,7 +183,9 @@ div h1 { /*Title of portfolio*/
 
 @media screen and (max-width:1000px) {
     div h1 {
-        font-size: 2.5vh;
+        font-size: 4vh;
+        margin-top: 20vh;
+        margin-left:33%
     }
 }
 
@@ -199,7 +203,8 @@ div h2{
 
 @media screen and (max-width:1000px) {
     div h2 {
-        font-size: 1.1vh;
+        font-size: 2.5vh;
+        margin-left:28%
     }
 }
 
@@ -215,6 +220,7 @@ div h3{
 
 @media screen and (max-width:1000px) {
     div h3 {
-        font-size: .9vh;
+        font-size: 2vh;
+        margin-left:0;
     }
 }
