@@ -136,7 +136,8 @@ h1 {
 
 @media(max-width: 1000px) {
     h1 {
-        font-size:6vw;
+        font-size: 6vw;
+        margin-top: 0vh;
     }
 }
 
