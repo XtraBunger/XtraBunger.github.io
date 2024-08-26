@@ -140,11 +140,11 @@ div .lancer { /*Image of site*/
 }
 
 @media screen and (max-width:1000px) {
-    .img_website {
+    div .lancer {
         float: left;
         width: auto;
         height: 47vw;
-        margin-left:0;
+        margin-left: 0;
     }
 }
 
@@ -179,6 +179,12 @@ div h1 { /*Title of portfolio*/
     padding: 5px;
 }
 
+@media screen and (max-width:1000px) {
+    .imagecard {
+        font-size: 2.5vh;
+    }
+}
+
 div h2{
     font-size:4vh;
     background:white;
@@ -191,6 +197,12 @@ div h2{
     margin-top:5%;
 }
 
+@media screen and (max-width:1000px) {
+    .imagecard {
+        font-size: 1.1vh;
+    }
+}
+
 div h3{
     text-align:justify;
     font-size:2.5vh;
@@ -201,3 +213,8 @@ div h3{
     margin-top:auto;
 }
 
+@media screen and (max-width:1000px) {
+    .imagecard {
+        font-size: .9vh;
+    }
+}
