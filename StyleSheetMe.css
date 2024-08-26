@@ -160,12 +160,12 @@ div .lancer { /*Image of site*/
 
 @media screen and (max-width:1000px) {
     .imagecard {
-        margin-left:-.8vh;
+        float:initial;
     }
 }
 
 div h1 { /*Title of portfolio*/
-    font-size: 2.5vw;
+    font-size: 6vh;
     margin-top: auto;
     font-style: italic;
     font-weight: bold;
@@ -180,22 +180,24 @@ div h1 { /*Title of portfolio*/
 }
 
 div h2{
-    font-size:2vw;
+    font-size:4vh;
     background:white;
     display:inline-block;
     padding:3px;
     text-align:justify;
     border:solid black 4px;
     margin-top:20vh;
-    margin-left:20%;
+    margin-left:15%;
+    margin-top:5%;
 }
 
 div h3{
     text-align:justify;
-    font-size:1vw;
+    font-size:2.5vh;
     background:white;
     display:inline-block;
     border:solid black 3px;
-    margin-left:10%
+    margin-left:10%;
+    margin-top:auto;
 }
 
