@@ -210,7 +210,7 @@ div .websitelist { /*About the project website*/
 @media screen and (max-width:1000px) {
     .portfolio {
         font-size:5vw;
-        margin-left:-8vw;
+        margin-left:-4vw;
     }
 }
 
