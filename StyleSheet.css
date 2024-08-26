@@ -17,11 +17,11 @@
     align-items: center;
     flex-direction: column;
     display: flex;
-    position: absolute;
-    bottom: -2.5vh;
-    width: 107vw;
-    margin-top: auto;
-    margin-left: -1vw;
+    position:absolute;
+    bottom:-2.5vh;
+    width:107vw;
+    margin-top:auto;
+    margin-left:-1vw;
 }
 /*Nav Bar*/
 
@@ -29,7 +29,7 @@ nav ul {
     list-style-type: none;
     background: hsl(0,0%,25%);
     padding: 0px;
-    margin-top: -1vh;
+    margin-top: -1.2vh;
     margin-left: -.5vw;
     overflow-x: hidden;
     font-size: 40px;
@@ -41,7 +41,7 @@ nav ul {
 
 @media screen and (max-width:1000px) {
     nav ul {
-        width: 107vw;
+        width: 125vw;
         margin-left: -2%;
     }
 }
