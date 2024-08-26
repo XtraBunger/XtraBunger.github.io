@@ -1,5 +1,4 @@
 ﻿body {
-    background-color: /*#2b2a33*/ white;
     color: black;
     font-family: 'Times New Roman', serif;
     overflow: hidden;
@@ -7,42 +6,35 @@
     flex-direction: column;
     min-height: 100vh;
     position: relative;
+    background: url('homebackground.gif') no-repeat;
+    background-size:cover;
+    background-position:center;
 }
-
 
 /*Title text*/
 
 h1 {
-    font-size: 2vw;
+    font-size: 2.5vw;
     text-align: center;
+    margin-top: -3vh;
+    background: #C70039;
+    border: black solid 4px;
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
 }
 
 /*Main paragraph about me text*/
 
-p1 {
-    font-size: 1vw;
-    text-align: justify;
+h2 {
+    font-size: 1.25vw;
     margin-left: 100px;
-}
-
-#LeSpy {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.imagecard {
-    width: auto;
-    background-color: white;
-    margin: 3%;
-    border: 0px solid white;
-    float: right;
-    box-shadow: 5px 5px 5px #4d4d4e;
-}
-
-.imgtxt {
-    text-align: center;
-    padding: 10px 10px;
+    background: #C70039;
+    border: solid black 3px;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 0vw;
+    margin-top: 7%
 }
 
 .open {
