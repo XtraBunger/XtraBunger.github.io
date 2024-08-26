@@ -39,7 +39,7 @@ nav ul {
 
 @media screen and (max-width:1000px) {
     nav ul {
-        width: 105vw;
+        width: 107vw;
         margin-left: -2%;
     }
 }
@@ -204,7 +204,7 @@ div .websitelist { /*About the project website*/
 @media screen and (max-width:600px) {
     .portfolio {
         font-size:7vw;
-        margin-left:-1vw;
+        margin-left:-8vw;
     }
 }
 
@@ -225,7 +225,7 @@ div .websitelist { /*About the project website*/
 @media screen and (max-width:1000px) {
     .P1 {
         text-align: center;
-        margin-left: 25%;
+        margin-left: 15%;
         margin-bottom: 2vh;
     }
 }

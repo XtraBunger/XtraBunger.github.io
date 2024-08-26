@@ -41,73 +41,78 @@ nav ul {
 
 @media screen and (max-width:1000px) {
     nav ul {
-        width: 105%;
+        width: 107vw;
         margin-left: -2%;
     }
 }
-
-ul .menu-button {
-    display: none;
-    background: hsl(0,0%,25%);
-}
-
-@media screen and (max-width:1000px) {
     ul .menu-button {
-        display: flex;
-    }
-}
-
-/*Nav bar text*/
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    align-items: center;
-    font-size: 40px;
-}
-
-    /*Colour change on hover*/
-    nav a:hover {
-        background-color: hsl(0,0%,10%)
-    }
-
-/*Home button left side*/
-nav ul li:first-child {
-    margin-right: auto;
-}
-
-/*Side bar*/
-.side {
-    position: fixed;
-    right: 0;
-    height: auto;
-    background-image: url('file:///C:\Users\Theam\Downloads\close_24dp_E8EAED.svg');
-    width: 250px;
-    z-index: 999;
-    background-color: hsl(0,0%,25%);
-    display: none;
-    flex-direction: column;
-    justify-content: flex-start;
-    backdrop-filter: blur(10px);
-}
-
-    /*Size of the buttons*/
-    .side li {
-        width: 100%;
-    }
-
-    .side a {
-        width: 100%;
-    }
-
-@media(max-width: 1000px) {
-    .hideOnMobile {
         display: none;
-        width: 100%;
+        background: hsl(0,0%,25%);
     }
 
-    .menu-button {
+    @media screen and (max-width:1000px) {
+        ul .menu-button {
+            display: flex;
+        }
+    }
+
+    /*Nav bar text*/
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+        display: block;
+        align-items: center;
+        font-size: 40px;
+    }
+
+        /*Colour change on hover*/
+        nav a:hover {
+            background-color: hsl(0,0%,10%)
+        }
+
+    /*Home button left side*/
+    nav ul li:first-child {
+        margin-right: auto;
+    }
+
+    /*Side bar*/
+    .side {
+        position: fixed;
+        right: 0;
+        height: auto;
+        background-image: url('file:///C:\Users\Theam\Downloads\close_24dp_E8EAED.svg');
+        width: 250px;
+        z-index: 999;
+        background-color: hsl(0,0%,25%);
+        display: none;
+        flex-direction: column;
+        justify-content: flex-start;
+        backdrop-filter: blur(10px);
+    }
+
+        /*Size of the buttons*/
+        .side li {
+            width: 100%;
+        }
+
+        .side a {
+            width: 100%;
+        }
+
+    @media(max-width: 1000px) {
+        .hideOnMobile {
+            display: none;
+            width: 100%;
+
+            @media screen and (max-width:1000px) {
+                nav ul {
+                    width: 107vw;
+                    margin-left: -2%;
+                }
+            }
+
+            .menu-button {
         display: block;
     }
 }
