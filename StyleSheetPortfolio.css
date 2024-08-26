@@ -23,21 +23,37 @@
 }
 /*Nav Bar*/
 
-nav ul{
-    list-style-type:none;
-    background-color:hsl(0,0%,25%);
-    padding:0px;
-    margin-top:-1.5vh;
-    margin-right:-4vw;
-    margin-left:-.8vw;
-    overflow-x:hidden;
-    font-size:40px;
-    justify-content:flex-end;
-    display:flex;
-    width:auto;
-    position:center;
+nav ul {
+    list-style-type: none;
+    background: hsl(0,0%,25%);
+    padding: 0px;
+    margin-top: -1.5vh;
+    margin-left: -.5vw;
+    overflow-x: hidden;
+    font-size: 40px;
+    justify-content: flex-end;
+    display: flex;
+    width: 101%;
+    position: center;
 }
 
+@media screen and (max-width:1000px) {
+    nav ul {
+        width: 105%;
+        margin-left: -2%;
+    }
+}
+
+ul .menu-button {
+    display: none;
+    background: hsl(0,0%,25%);
+}
+
+@media screen and (max-width:1000px) {
+    ul .menu-button {
+        display: flex;
+    }
+}
 
 /*Nav bar text*/
 nav a {

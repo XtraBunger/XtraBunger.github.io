@@ -58,7 +58,7 @@ h2 {
     bottom: -2.5vh;
     width: 100vw;
     margin-top: auto;
-    margin-left: -1vw;
+    margin-left: -2vw;
 }
 
 .Contacts {
@@ -68,17 +68,36 @@ h2 {
 
 nav ul {
     list-style-type: none;
-    background-color: hsl(0,0%,25%);
+    background: hsl(0,0%,25%);
     padding: 0px;
     margin-top: -1.5vh;
-    margin-right: -4vw;
-    margin-left: -.8vw;
-    overflow: hidden;
+
+    margin-left:-.5vw;
+
+    overflow-x:hidden;
     font-size: 40px;
     justify-content: flex-end;
     display: flex;
-    width: auto;
+    width: 101%;
     position: center;
+}
+
+@media screen and (max-width:1000px) {
+    nav ul {
+        width: 105%;
+        margin-left:-2%;
+    }
+}
+
+ul .menu-button {
+    display: none;
+    background: hsl(0,0%,25%);
+}
+
+@media screen and (max-width:1000px) {
+    ul .menu-button {
+        display: flex;
+    }
 }
 
 nav a {
