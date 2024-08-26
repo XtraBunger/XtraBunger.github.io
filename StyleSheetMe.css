@@ -180,7 +180,7 @@ div h1 { /*Title of portfolio*/
 }
 
 @media screen and (max-width:1000px) {
-    .imagecard {
+    div h1 {
         font-size: 2.5vh;
     }
 }
@@ -198,7 +198,7 @@ div h2{
 }
 
 @media screen and (max-width:1000px) {
-    .imagecard {
+    div h2 {
         font-size: 1.1vh;
     }
 }
@@ -214,7 +214,7 @@ div h3{
 }
 
 @media screen and (max-width:1000px) {
-    .imagecard {
+    div h3 {
         font-size: .9vh;
     }
 }
