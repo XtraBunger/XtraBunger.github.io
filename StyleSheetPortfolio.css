@@ -45,7 +45,7 @@ nav ul {
 
 @media screen and (max-width:1000px) {
     nav ul {
-        width: 107vw;
+        width: 101.5vw;
         margin-left: -2%;
     }
 }
@@ -209,7 +209,7 @@ div .websitelist { /*About the project website*/
 
 @media screen and (max-width:1000px) {
     .portfolio {
-        font-size:10vw;
+        font-size:4.5vh;
         margin-left:-8vw;
     }
 }
