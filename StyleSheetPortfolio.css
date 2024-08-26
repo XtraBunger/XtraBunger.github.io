@@ -179,7 +179,7 @@ div .websitelist { /*About the project website*/
     margin-top: 0vh;
     margin-left: 5vh;
     margin-bottom: 25vh;
-    font-size: 20px;
+    font-size: 2vh;
     display: flex;
     flex-direction: column;
     box-shadow: 5px 5px 5px #4d4d4e;
@@ -209,7 +209,7 @@ div .websitelist { /*About the project website*/
 
 @media screen and (max-width:1000px) {
     .portfolio {
-        font-size:4vw;
+        font-size:5vw;
         margin-left:-8vw;
     }
 }
