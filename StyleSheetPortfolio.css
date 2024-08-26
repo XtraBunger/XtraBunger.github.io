@@ -17,11 +17,11 @@
     align-items: center;
     flex-direction: column;
     display: flex;
-    position:absolute;
-    bottom:-2.5vh;
-    width:107vw;
-    margin-top:auto;
-    margin-left:-2vw; 
+    position: fixed;
+    bottom: -2vh;
+    width: 107vw;
+    margin-top: auto;
+    margin-left: -2vw;
 }
 
 .Contacts {
