@@ -71,6 +71,12 @@ nav a {
     font-size: 40px;
 }
 
+@media screen and (max-width:1000px) {
+    nav a {
+        font-size: 3.5vh;
+    }
+}
+
     /*Colour change on hover*/
     nav a:hover {
         background-color: hsl(0,0%,10%)
