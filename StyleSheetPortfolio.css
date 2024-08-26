@@ -1,4 +1,4 @@
-body {
+﻿body {
     background-color: /*#2b2a33*/ white;
     color: black;
     font-family: 'Times New Roman', serif;
@@ -11,98 +11,70 @@ body {
 
 .Footer {
     background-color: hsl(0,0%,25%);
-    flex-direction: column;
-    display: flex;
     padding: 20px;
     align-items: center;
+    flex-direction: column;
+    display: flex;
     position:absolute;
-    bottom:0%;
+    bottom:-2.5vh;
     width:100vw;
-    height:7rem;
-    margin:0px;
+    margin-top:auto;
+    margin-left:-2.3vw;
 }
-
-h1 {
-    font-size: 2vw;
-    text-align: center;
-}
-
-/*Main paragraph about me text*/
-
-.imagecard {
-    width: auto;
-    background-color: white;
-    margin: 3%;
-    border: 0px solid white;
-    float: right;
-    box-shadow: 5px 5px 5px #4d4d4e;
-}
-
-.imgtxt {
-    text-align: center;
-    padding: 10px 10px;
-}
-
-.open {
-    text-align: center;
-    font-family: 'Copperplate Gothic';
-    font-size: 40px;
-    font-weight: bold;
-    margin-left: -50px;
-    background: white;
-    border: 1px solid transparent;
-    border-width: 4px;
-}
+/*Nav Bar*/
 
 nav ul{
     list-style-type:none;
     background-color:hsl(0,0%,25%);
     padding:0px;
-    margin:-15px;
+    margin-top:-1vh;
+    margin-right:-3.5vw;
+    margin-left:-.8vw;
     overflow:hidden;
     font-size:40px;
     justify-content:flex-end;
     display:flex;
-    width:100.5vw;
+    width:auto;
+    position:center;
 }
 
+
+/*Nav bar text*/
 nav a {
     color: white;
     text-decoration: none;
     padding: 15px;
     display: block;
     align-items: center;
+    font-size:40px;
 }
 
+/*Colour change on hover*/
 nav a:hover{
     background-color: hsl(0,0%,10%)
 }
 
+/*Home button left side*/
 nav ul li:first-child{
     margin-right:auto;
 }
 
-nav {
-    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
- 
-}
-
+/*Side bar*/
 .side {
     position: fixed;
-    top: 10px;
     right: 0;
-    height: 100vw;
+    height: auto;
     background-image: url('file:///C:\Users\Theam\Downloads\close_24dp_E8EAED.svg');
     width: 250px;
     z-index: 999;
     background-color: hsl(0,0%,25%);
-    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
     display: none;
     flex-direction: column;
     justify-content: flex-start;
     backdrop-filter: blur(10px);
 }
 
+/*Size of the buttons*/
 .side li{
     width:100%;
 }

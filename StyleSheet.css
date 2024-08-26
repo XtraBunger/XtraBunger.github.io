@@ -3,6 +3,10 @@
     color: black;
     font-family: 'Times New Roman', serif;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
 }
 
 
@@ -25,14 +29,6 @@ p1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-#ForMe {
-    border: 3px solid #ddd;
-    border-radius: 20%;
-    padding: 5px;
-    float: left;
-    margin-left: 50px;
 }
 
 .imagecard {
@@ -62,14 +58,15 @@ p1 {
 
 .Footer {
     background-color: hsl(0,0%,25%);
+    padding: 20px;
+    align-items: center;
     flex-direction: column;
     display: flex;
-    margin-left: -20px;
-    margin-right: -20px;
-    padding: 20px;
-    margin-top: 570px;
-    text-align: justify;
-    align-items: center;
+    position: absolute;
+    bottom: -2.5vh;
+    width: 100vw;
+    margin-top: auto;
+    margin-left: -2.3vw;
 }
 
 .Contacts {
@@ -77,20 +74,19 @@ p1 {
     display: block;
 }
 
-
-
-
-
-
 nav ul {
     list-style-type: none;
     background-color: hsl(0,0%,25%);
     padding: 0px;
-    margin: -15px;
+    margin-top: -1vh;
+    margin-right: -3.5vw;
+    margin-left: -.8vw;
     overflow: hidden;
     font-size: 40px;
     justify-content: flex-end;
     display: flex;
+    width: auto;
+    position: center;
 }
 
 nav a {
@@ -99,32 +95,25 @@ nav a {
     padding: 15px;
     display: block;
     align-items: center;
+    font-size: 40px;
 }
 
-    nav a:hover {
-        background-color: hsl(0,0%,10%)
-    }
-
-
+nav a:hover {
+    background-color: hsl(0,0%,10%)
+}
 
 nav ul li:first-child {
     margin-right: auto;
 }
 
-nav {
-    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
-}
-
 .side {
     position: fixed;
-    top: 10px;
     right: 0;
-    height: 100vw;
+    height: auto;
     background-image: url('file:///C:\Users\Theam\Downloads\close_24dp_E8EAED.svg');
     width: 250px;
     z-index: 999;
     background-color: hsl(0,0%,25%);
-    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
     display: none;
     flex-direction: column;
     justify-content: flex-start;
