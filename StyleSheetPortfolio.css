@@ -199,6 +199,7 @@ div .websitelist { /*About the project website*/
         margin-left: 0;
         margin-top: 10vh;
         margin-bottom: 20vh;
+        font-size: 2.5vw;
     }
 }
 
@@ -235,8 +236,6 @@ li.question{
     padding:7px;
     border:black solid 4px;
 }
-
-
 
 @media screen and (max-width:1000px) {
     .P1 {
