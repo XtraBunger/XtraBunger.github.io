@@ -1,7 +1,7 @@
 ﻿body {
     color: black;
     font-family: 'Times New Roman', serif;
-    overflow: hidden;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -17,20 +17,17 @@
     align-items: center;
     flex-direction: column;
     display: flex;
-    position:absolute;
-    bottom:-2.5vh;
-    width:107vw;
-    margin-top:auto;
-    margin-left:-1vw;
+    position: absolute;
+    bottom: -2.5vh;
+    width: 107vw;
+    margin-top: auto;
+    margin-left: -2vw;
 }
 
 .Contacts {
     align-items: center;
     display: block;
 }
-
-
-/*Nav Bar*/
 
 nav ul {
     list-style-type: none;
@@ -48,15 +45,8 @@ nav ul {
 
 @media screen and (max-width:1000px) {
     nav ul {
-        width: 125vw;
+        width: 107vw;
         margin-left: -2%;
-    }
-}
-
-@media screen and (max-width:600px) {
-    .portfolio {
-        font-size: 7vw;
-        margin-left: -8vw;
     }
 }
 
@@ -131,7 +121,6 @@ nav ul li:first-child {
         width: 100%;
     }
 }
-
 /*Title text*/
 
 h1 {

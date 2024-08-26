@@ -21,7 +21,7 @@
     bottom:-2.5vh;
     width:107vw;
     margin-top:auto;
-    margin-left:-1vw; 
+    margin-left:-2vw; 
 }
 
 .Contacts {
@@ -45,7 +45,7 @@ nav ul {
 
 @media screen and (max-width:1000px) {
     nav ul {
-        width: 1vw;
+        width: 107vw;
         margin-left: -2%;
     }
 }
