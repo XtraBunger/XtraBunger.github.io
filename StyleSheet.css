@@ -1,7 +1,7 @@
 ﻿body {
     color: black;
     font-family: 'Times New Roman', serif;
-    overflow-x: hidden;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -18,7 +18,7 @@
     flex-direction: column;
     display: flex;
     position: fixed;
-    bottom: -2vh;
+    bottom: -7vh;
     width: 107vw;
     margin-top: auto;
     margin-left: -2vw;
@@ -126,7 +126,7 @@ nav ul li:first-child {
 h1 {
     font-size: 2.5vw;
     text-align: center;
-    margin-top: -3vh;
+    margin-top: -1.5vh;
     background: #C70039;
     border: black solid 4px;
     display: flex;
@@ -150,12 +150,14 @@ h2 {
     padding: 10px;
     display: inline-block;
     margin-left: 0vw;
-    margin-top: 7%
+    margin-top: 4%
 }
 
 @media(max-width: 1000px) {
     h2 {
         font-size: 4vw;
+        margin-top:40%;
+        margin-bottom:10vh;
     }
 }
 
