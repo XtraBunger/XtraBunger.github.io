@@ -2,7 +2,7 @@
     background-color: /*#2b2a33*/ white;
     color: black;
     font-family: 'Times New Roman', serif;
-    overflow:hidden;
+    overflow-x:hidden;
     display:flex;
     flex-direction:column;
     min-height:100vh;
@@ -27,10 +27,10 @@ nav ul{
     list-style-type:none;
     background-color:hsl(0,0%,25%);
     padding:0px;
-    margin-top:-1vh;
-    margin-right:-3.5vw;
+    margin-top:-1.5vh;
+    margin-right:-4vw;
     margin-left:-.8vw;
-    overflow:hidden;
+    overflow-x:hidden;
     font-size:40px;
     justify-content:flex-end;
     display:flex;
@@ -81,4 +81,65 @@ nav ul li:first-child{
 
 .side a{
     width:100%;
+}
+
+/*This is the formatting for the text itself*/
+
+.website li{
+    list-style-type:none;
+}
+
+main h1{
+    font-size:40px;
+    margin-top:auto;
+    text-align:justify;
+    font-style:italic;
+    font-weight:bold;
+    border-spacing:.5vh;
+    border-width:10px;
+}
+
+.img_website {
+    height:400px;
+    width:auto;
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+    border:black 2.5px solid;
+}
+
+.imagecard {
+    width: auto;
+    background-color: white;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: -1vh;
+    margin-bottom: 3%;
+    border: 0px solid white;
+    float: right;
+    box-shadow: 5px 5px 5px #4d4d4e;
+}
+
+div .websitelist{
+    border:solid black 5px;
+    margin-top:0vh;
+    margin-left:5vh;
+    font-size:20px;
+    display:flex;
+    flex-direction:column;
+    box-shadow: 5px 5px 5px #4d4d4e;
+    padding:10px;
+    background-color:cyan;
+}
+
+.portfolio{
+    text-align:center;
+}
+
+.P1{
+    margin-left:20vw;
+    text-align:justify;
+    margin-bottom:1.2vh;
+    margin-top:10vh;
+    font-size:3vh;
 }
