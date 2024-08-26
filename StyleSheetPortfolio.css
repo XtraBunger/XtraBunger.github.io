@@ -1,12 +1,14 @@
 ﻿body {
-    background-color: /*#2b2a33*/ white;
     color: black;
     font-family: 'Times New Roman', serif;
-    overflow-x:hidden;
-    display:flex;
-    flex-direction:column;
-    min-height:100vh;
-    position:relative;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+    background: url('portback.gif') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .Footer {
@@ -99,6 +101,23 @@ nav ul li:first-child{
     width:100%;
 }
 
+@media(max-width: 800px) {
+    .hideOnMobile {
+        display: none;
+        width: 100%;
+    }
+
+    .menu-button {
+        display: block;
+    }
+}
+
+@media(max-width: 400px) {
+    .side {
+        width: 100%;
+    }
+}
+
 /*This is the formatting for the text itself*/
 
 .website li{
@@ -115,12 +134,12 @@ main h1{ /*Title of portfolio*/
 }
 
 .img_website { /*Image of site*/
-    height:20vw;
-    width:auto;
-    display:flex;
-    margin-left:auto;
-    margin-right:auto;
-    border:black 2.5px solid;
+    height: 20vw;
+    width: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: black 2.5px solid;
 }
 
 @media screen and (max-width:1000px) {
@@ -146,7 +165,7 @@ main h1{ /*Title of portfolio*/
 
 @media screen and (max-width:1000px) {
     .imagecard {
-        float: left;
+        margin-left:-.8vh;
     }
 }
 
@@ -168,12 +187,26 @@ div .websitelist { /*About the project website*/
         text-align: left;
         margin-left: 0;
         margin-top: 10vh;
-        margin-bottom: 10%;
+        margin-bottom: 20vh;
     }
 }
 
 .portfolio { /*Title*/
     text-align: center;
+    background:white;
+    border:3px solid black;
+    display:inline-block;
+    margin:auto;
+    padding: 5px;
+    margin-left:16vw;
+    font-size:2.5vw;
+}
+
+@media screen and (max-width:700px) {
+    .portfolio {
+        font-size:7vw;
+        margin-left:-1vw;
+    }
 }
 
 .P1 { /*Website intro*/
@@ -182,12 +215,18 @@ div .websitelist { /*About the project website*/
     margin-bottom: 1.2vh;
     margin-top: 10vh;
     font-size: 3vh;
+    background:white;
+    display:inline-block;
+    padding:7px;
+    border:black solid 4px;
 }
+
+
 
 @media screen and (max-width:1000px) {
     .P1 {
         text-align: center;
-        margin-left: 0;
+        margin-left: 25%;
         margin-bottom: 2vh;
     }
 }

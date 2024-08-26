@@ -11,6 +11,113 @@
     background-position:center;
 }
 
+.Footer {
+    background-color: hsl(0,0%,25%);
+    padding: 20px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    position: absolute;
+    bottom: -2.5vh;
+    width: 100vw;
+    margin-top: auto;
+    margin-left: -2vw;
+}
+/*Nav Bar*/
+
+nav ul {
+    list-style-type: none;
+    background: hsl(0,0%,25%);
+    padding: 0px;
+    margin-top: -1.5vh;
+    margin-left: -.5vw;
+    overflow-x: hidden;
+    font-size: 40px;
+    justify-content: flex-end;
+    display: flex;
+    width: 101%;
+    position: center;
+}
+
+@media screen and (max-width:1000px) {
+    nav ul {
+        width: 105%;
+        margin-left: -2%;
+    }
+}
+
+ul .menu-button {
+    display: none;
+    background: hsl(0,0%,25%);
+}
+
+@media screen and (max-width:1000px) {
+    ul .menu-button {
+        display: flex;
+    }
+}
+
+/*Nav bar text*/
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    align-items: center;
+    font-size: 40px;
+}
+
+    /*Colour change on hover*/
+    nav a:hover {
+        background-color: hsl(0,0%,10%)
+    }
+
+/*Home button left side*/
+nav ul li:first-child {
+    margin-right: auto;
+}
+
+/*Side bar*/
+.side {
+    position: fixed;
+    right: 0;
+    height: auto;
+    background-image: url('file:///C:\Users\Theam\Downloads\close_24dp_E8EAED.svg');
+    width: 250px;
+    z-index: 999;
+    background-color: hsl(0,0%,25%);
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    backdrop-filter: blur(10px);
+}
+
+    /*Size of the buttons*/
+    .side li {
+        width: 100%;
+    }
+
+    .side a {
+        width: 100%;
+    }
+
+@media(max-width: 1000px) {
+    .hideOnMobile {
+        display: none;
+        width: 100%;
+    }
+
+    .menu-button {
+        display: block;
+    }
+}
+
+@media(max-width: 1000px) {
+    .side {
+        width: 100%;
+    }
+}
+
 /*Title text*/
 
 h1 {
@@ -22,6 +129,12 @@ h1 {
     display: flex;
     flex-direction: column;
     padding: 7px;
+}
+
+@media(max-width: 1000px) {
+    h1 {
+        font-size:6vw;
+    }
 }
 
 /*Main paragraph about me text*/
@@ -37,28 +150,10 @@ h2 {
     margin-top: 7%
 }
 
-.open {
-    text-align: center;
-    font-family: 'Copperplate Gothic';
-    font-size: 40px;
-    font-weight: bold;
-    margin-left: -50px;
-    background: white;
-    border: 1px solid transparent;
-    border-width: 4px;
-}
-
-.Footer {
-    background-color: hsl(0,0%,25%);
-    padding: 20px;
-    align-items: center;
-    flex-direction: column;
-    display: flex;
-    position: absolute;
-    bottom: -2.5vh;
-    width: 100vw;
-    margin-top: auto;
-    margin-left: -2vw;
+@media(max-width: 1000px) {
+    h2 {
+        font-size: 3vw;
+    }
 }
 
 .Contacts {
@@ -66,92 +161,4 @@ h2 {
     display: block;
 }
 
-nav ul {
-    list-style-type: none;
-    background: hsl(0,0%,25%);
-    padding: 0px;
-    margin-top: -1.5vh;
 
-    margin-left:-.5vw;
-
-    overflow-x:hidden;
-    font-size: 40px;
-    justify-content: flex-end;
-    display: flex;
-    width: 101%;
-    position: center;
-}
-
-@media screen and (max-width:1000px) {
-    nav ul {
-        width: 105%;
-        margin-left:-2%;
-    }
-}
-
-ul .menu-button {
-    display: none;
-    background: hsl(0,0%,25%);
-}
-
-@media screen and (max-width:1000px) {
-    ul .menu-button {
-        display: flex;
-    }
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    align-items: center;
-    font-size: 40px;
-}
-
-nav a:hover {
-    background-color: hsl(0,0%,10%)
-}
-
-nav ul li:first-child {
-    margin-right: auto;
-}
-
-.side {
-    position: fixed;
-    right: 0;
-    height: auto;
-    background-image: url('file:///C:\Users\Theam\Downloads\close_24dp_E8EAED.svg');
-    width: 250px;
-    z-index: 999;
-    background-color: hsl(0,0%,25%);
-    display: none;
-    flex-direction: column;
-    justify-content: flex-start;
-    backdrop-filter: blur(10px);
-}
-
-    .side li {
-        width: 100%;
-    }
-
-    .side a {
-        width: 100%;
-    }
-
-@media(max-width: 800px) {
-    .hideOnMobile {
-        display: none;
-        width: 100%;
-    }
-
-    .menu-button {
-        display: block;
-    }
-}
-
-@media(max-width: 400px) {
-    .side {
-        width: 100%;
-    }
-}
