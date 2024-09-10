@@ -21,7 +21,7 @@
     bottom: -2vh;
     width: 107vw;
     margin-top: auto;
-    margin-left: -2vw;
+    margin-left: -5vw;
 }
 
 .Contacts {
@@ -141,10 +141,10 @@ div .lancer { /*Image of site*/
 
 @media screen and (max-width:1000px) {
     div .lancer {
-        float: left;
         width: auto;
         height: 47vw;
-        margin-left: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -160,9 +160,11 @@ div .lancer { /*Image of site*/
 
 @media screen and (max-width:1000px) {
     .imagecard {
-        float:left;
-        margin-top:0;
-        margin-left:auto;
+        width:93.9vw;
+        float:none;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -208,19 +210,26 @@ div h2{
     }
 }
 
-div h3{
-    text-align:justify;
-    font-size:2.5vh;
-    background:white;
-    display:inline-block;
-    border:solid black 3px;
-    margin-left:10%;
-    margin-top:auto;
+div h3 {
+    text-align: justify;
+    font-size: 2.5vh;
+    background: white;
+    display: inline-block;
+    border: solid black 3px;
+    margin-left: 10%;
+    margin-top: auto;
+    width:40vw;
+    padding: 10px
 }
 
 @media screen and (max-width:1000px) {
     div h3 {
         font-size: 2vh;
-        margin-left:0;
+        display:flex;
+        margin-left:auto;
+        margin-top:0vh;
+        text-align:center;
+        margin-right:auto;
+        width:80vw;
     }
 }
