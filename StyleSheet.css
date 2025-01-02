@@ -6,7 +6,6 @@
     flex-direction: column;
     min-height: 100vh;
     position: relative;
-    background: url('homebackground.gif') no-repeat;
     background-size:cover;
     background-position:center;
 }

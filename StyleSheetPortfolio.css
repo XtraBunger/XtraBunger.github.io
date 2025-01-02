@@ -167,7 +167,7 @@ main h1{ /*Title of portfolio*/
     background-color: white;
     margin-left: 3%;
     margin-right: 2%;
-    margin-top: -1vh;
+    margin-top: 2vh;
     margin-bottom: 3%;
     border: 0px solid white;
     float: right;
@@ -233,7 +233,7 @@ li.question{
     font-size: 3vh;
     background:white;
     display:inline-block;
-    padding:7px;
+    padding:1%;
     border:black solid 4px;
 }
 
