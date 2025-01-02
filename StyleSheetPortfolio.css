@@ -238,6 +238,12 @@ li.question{
 }
 
 @media screen and (max-width:1000px) {
+    .img_website {
+        height: 10vw;
+    }
+}
+
+@media screen and (max-width:1000px) {
     .P1 {
         text-align: center;
         display:flex;
